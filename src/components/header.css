@@ -1,0 +1,97 @@
+.header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 0 85px;
+    top: 0;
+}
+
+.header-content {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid var(--gray-300, #d0d5dd);
+    background: var(--gray-100, #f2f4f7);
+    padding: 0.5rem 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+.logo-name {
+    color: var(--gray-900, #101828);
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-item {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-item-title {
+    color: var(--gray-500, #667085);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.nav-button {
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.talk-to-sales {
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: 1px solid var(--gray-400, #98a2b3);
+    background: #fff;
+    box-shadow: 0 1px 2px #1018280d;
+}
+
+button {
+    cursor: pointer;
+}
+
+.sign-up {
+    display: flex;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 100px;
+    background: var(--blue-700, #175cd3);
+    border-color: #175cd3;
+    border: 0px;
+    outline: none;
+    /* box-shadow: 0 1px 2px #1018280d; */
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}

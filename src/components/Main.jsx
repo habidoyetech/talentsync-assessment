@@ -259,7 +259,7 @@ const Main = () => {
                 </div>
                 <div className="whyCLImage">
                     <img src={Arrow} className="handArrow" alt="" srcset=""/>
-                    <img src={GroupPhoto}  alt='Group Photo' className="group-photo"/>
+                    <img src={GroupPhoto}  alt='Group' className="group-photo"/>
                 </div>
             </div>
         </div>
@@ -492,7 +492,7 @@ const Main = () => {
             </div>
             </div>
             <div className="cta_img">
-                <img src={CTA}/>
+                <img src={CTA} alt='cta'/>
             </div>
         </div>
         

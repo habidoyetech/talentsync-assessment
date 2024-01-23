@@ -344,13 +344,13 @@ const Main = () => {
             
         </div>
         <div className='faqs space-x-10'>
-            <div className="faqs__one flex-1 ">
+            <div className="faqs__one w-[40%]">
                 <p className="support">Support</p>
                 <p className="faqs__header">FAQs</p>
                 <p className="faqs__txt">Everything you need to know about the product and billing. Can’t find the answer you’re looking for? Please chat to our friendly team.</p>
             </div>
             <div className="hs-accordion-group flex-1">
-                <div className="hs-accordion active hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] rounded-lg py-6 px-6" id="hs-basic-heading-one">
+                <div className="hs-accordion active hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] hs-accordion-active:rounded-lg py-6 px-6" id="hs-basic-heading-one">
                     <button className="hs-accordion-toggle hs-accordion-active:text-[#101828] inline-flex  justify-between items-center gap-x-3 w-full font-semibold text-start text-[#101828]  disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-one">
                         <span>How many participants can join a ClearLink video conferece?</span>
                         
@@ -369,9 +369,9 @@ const Main = () => {
                         </p>
                     </div>
                 </div>
-                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] rounded-lg py-6 px-6" id="hs-basic-heading-two">
+                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] hs-accordion-active:rounded-lg py-6 px-6" id="hs-basic-heading-two">
                     <button className="hs-accordion-toggle hs-accordion-active:text-[#101828] inline-flex  justify-between items-center gap-x-3 w-full font-semibold text-start text-[#101828]  disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-two">
-                        <span>How many participants can join a ClearLink video conferece?</span>
+                        <span>Can I use ClearLink on multiple devices?</span>
                         
                         <svg className="hs-accordion-active:block hidden w-4 h-4"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -388,9 +388,9 @@ const Main = () => {
                         </p>
                     </div>
                 </div>
-                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] rounded-lg py-6 px-6" id="hs-basic-heading-three">
+                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] hs-accordion-active:rounded-lg py-6 px-6" id="hs-basic-heading-three">
                     <button className="hs-accordion-toggle hs-accordion-active:text-[#101828] inline-flex  justify-between items-center gap-x-3 w-full font-semibold text-start text-[#101828]  disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-three">
-                        <span>How many participants can join a ClearLink video conferece?</span>
+                        <span className='text-nowrap'>Is ClearLink compatible with other video conferencing platform?</span>
                         
                         <svg className="hs-accordion-active:block hidden w-4 h-4"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -407,9 +407,9 @@ const Main = () => {
                         </p>
                     </div>
                 </div>
-                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] rounded-lg py-6 px-6" id="hs-basic-heading-four">
+                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] hs-accordion-active:rounded-lg py-6 px-6" id="hs-basic-heading-four">
                     <button className="hs-accordion-toggle hs-accordion-active:text-[#101828] inline-flex  justify-between items-center gap-x-3 w-full font-semibold text-start text-[#101828]  disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-four">
-                        <span>How many participants can join a ClearLink video conferece?</span>
+                        <span className='text-nowrap'>How does ClearLink ensure the security of my video conferences?</span>
                         
                         <svg className="hs-accordion-active:block hidden w-4 h-4"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -421,6 +421,44 @@ const Main = () => {
 
                     </button>
                     <div id="hs-basic-collapse-four" className="hs-accordion-content hidden pt-2 w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-four">
+                        <p class="text-gray-800 text-[14px] ">
+                            ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.                        
+                        </p>
+                    </div>
+                </div>
+                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] hs-accordion-active:rounded-lg py-6 px-6" id="hs-basic-heading-five">
+                    <button className="hs-accordion-toggle hs-accordion-active:text-[#101828] inline-flex  justify-between items-center gap-x-3 w-full font-semibold text-start text-[#101828]  disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-five">
+                        <span className='text-nowrap'>Do I need to download any software to ClearLink?</span>
+                        
+                        <svg className="hs-accordion-active:block hidden w-4 h-4"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                        <svg className="hs-accordion-active:hidden block w-4 h-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                    </button>
+                    <div id="hs-basic-collapse-five" className="hs-accordion-content hidden pt-2 w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-five">
+                        <p class="text-gray-800 text-[14px] ">
+                            ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.                        
+                        </p>
+                    </div>
+                </div>
+                <div className="hs-accordion hs-accordion-active:bg-[#F9FAFB] hs-accordion-active:border border-b border-[#EAECF0] hs-accordion-active:rounded-lg py-6 px-6" id="hs-basic-heading-six">
+                    <button className="hs-accordion-toggle hs-accordion-active:text-[#101828] inline-flex  justify-between items-center gap-x-3 w-full font-semibold text-start text-[#101828]  disabled:opacity-50 disabled:pointer-events-none" aria-controls="hs-basic-collapse-six">
+                        <span className='text-nowrap'>What kind of customer support does ClearLink provide?</span>
+                        
+                        <svg className="hs-accordion-active:block hidden w-4 h-4"  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                        <svg className="hs-accordion-active:hidden block w-4 h-4" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 8V16M8 12H16M22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12Z" stroke="#98A2B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                    </button>
+                    <div id="hs-basic-collapse-six" className="hs-accordion-content hidden pt-2 w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-heading-six">
                         <p class="text-gray-800 text-[14px] ">
                             ClearLink offers flexible meeting options. Depending on your subscription plan, you can host meetings with varying numbers of participants. Our plans are designed to accommodate small team collaborations and large-scale webinars, ensuring you have the right fit for your needs.                        
                         </p>

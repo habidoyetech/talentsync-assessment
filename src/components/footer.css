@@ -18,11 +18,12 @@
     cursor: pointer;
     font-weight: 600;
     padding-bottom: 1.4rem;
+    color: #475467;
 }
 
 .footer__title {
     color: #667085;
-    font-size: medium;
+    font-weight: 600;
 }
 
 .app__logo {
